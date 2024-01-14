@@ -66,6 +66,7 @@ impl vec2d {
 }
 fn main () {
 let mut world = vec2d::new(5, 5);
+world.broadcast();
 }
 
 
